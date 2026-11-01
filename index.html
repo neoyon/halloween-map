@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contrée d'Halloween Eldarya – Carte interactive</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href=https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Redaction+35:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contrée d'Halloween</h1>
+    <p class="intro"><button type="button" id="fermer-intro" aria-label="Fermer">×</button>J'ai pas vraiment codé ce site, j'ai demandé de l'aide à Claude (l'IA), en revanche je me suis bien fait ch*er à
+        mettre touuutes les images à la main pendant des heures et des heures (il doit sans doute y avoir un moyen plus efficace mais je suis incompétent), donc si ça peut servir à quelqu'un d'autre, autant partager... Je tiens
+        aussi à préciser que cette idée est totalement inspirée du travail de la personne qui a fait <a href="https://blobbydex.onrender.com/wiki/map" target="_blank" rel="noopener">ce site</a>.
+        Aussi, c'est fort probable qu'il y ait des erreurs et oublis, je suis désolé si c'est le cas et que ça impacte votre/vos explo(s), n'hésitez pas à me les faire remonter si vous en remarquez.
+    </p>
+    <button id="btn-placement" type="button" hidden>Mode placement : OFF</button>
+    <p id="coords"></p>
+  </header>
+
+  <main>
+    <div id="carte">
+      <img id="fond" src="images/map.jpg" alt="Carte de la Contrée d'Halloween">
+      <div id="points"></div>
+      <div id="infobulle" hidden></div>
+    </div>
+  </main>
+
+  <footer>Fansite non officiel. Images © Beemoov.</footer>
+
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
