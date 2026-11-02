@@ -162,7 +162,7 @@ const lieux = [
     nom: "Puits des esprits",
     x: 81.5, y: 76.3,
     objets: [
-        "Ptérocorvus", "Sucrerie Terrifiante", "Ailes Twisted Harpy", "Démente", "Ceinture Veiled Claws", "Adella", 
+        "Ptérocorvus", "Sucrerie Terrifiante", "Ailes Twisted Harpy", "Ceinture Veiled Claws", "Adella", 
         "Maquillage Skel Mermaid", "Masque Spirited Away", "Ras de cou gothique", "Haut Mad Scientist", 
         "Voile Necromancer", "Faux Skeleton Witch", "Ronces envahissantes", "Gants Mad Scientist",
         "Cape Veiled Claws", "Bas Skeleton Witch", "Bottes Blood Cloaked Soldier"
